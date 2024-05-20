@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: '@nder0nPaak123'
+      MYSQL_DATABASE: 'guia_perguntas'
+    ports:
+      - '3306:3306'

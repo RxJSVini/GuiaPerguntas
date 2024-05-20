@@ -8,7 +8,7 @@ class HomeController {
       ]
     })
       .then(pergunta => {
-        return res.render('dados/index.ejs', { title: 'Formação Nodejs', perguntas: pergunta });
+        return res.render('dados/index', { title: 'Formação Nodejs', perguntas: pergunta });
       })
       .catch((error) => {
         console.log(error);

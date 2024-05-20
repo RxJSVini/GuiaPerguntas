@@ -4,7 +4,8 @@
   "description": "Primeiro Projeto do Curso de Formação NodeJS",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node --env-file=.env index.js"
   },
   "keywords": [
     "nodejs",

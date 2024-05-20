@@ -26,7 +26,6 @@ app.use(bodyParser.json());
 //Setando as rotas
 app.use(routes);
 
-
 app.listen(3000, (error) => {
   if (error) {
     console.log(error)
