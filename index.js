@@ -17,6 +17,7 @@ connection
 
 //Setando a templage engine do projeto
 app.set('view engine', 'ejs');
+app.set('views', './views')
 //Setando pasta de arquivos estáticos
 app.use(express.static('public'));
 

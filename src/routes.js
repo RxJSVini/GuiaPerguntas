@@ -26,7 +26,7 @@ router.get('/perguntas/:id', (req, res) => {
           where: { id: pergunta.id },
           order: ['id', 'DESC']
         })
-        return res.render('perguntas', { 'title': 'Formação Nodejs', pergunta: pergunta });
+        return res.render('pergunta', { 'title': 'Formação Nodejs', pergunta: pergunta });
 
       } else { //Não encontrada
         return res.redirect('/')
